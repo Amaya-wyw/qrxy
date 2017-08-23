@@ -1,0 +1,15 @@
+.one{
+    padding-top: 90px;
+}
+.user-head{
+    border-bottom: 1px solid #E1E1E1;
+}
+footer{
+    text-align: center;
+}
+footer span{
+    line-height: 60px;
+}
+.tag{
+    margin-right: 10px;
+}

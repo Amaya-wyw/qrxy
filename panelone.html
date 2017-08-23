@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>panelone</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="panelone.css">
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-5">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">后台管理</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar" >
+            <ul class="nav navbar-nav">
+                <li class="active"><a href=""><span class="glyphicon glyphicon-home"></span>后台首页</a></li>
+                <li><a href="paneltwo.html"><span class="glyphicon glyphicon-user"></span>用户管理</a></li>
+                <li><a href="panelfour.html"><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+                <li><a href="panelsix.html"><span class="glyphicon glyphicon-tags"></span>标签管理</a></li>
+            </ul>
+         </div>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2 ">
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a class="dropdown-toggle" type="button" data-toggle="dropdown">admin<span class="caret"></span></a>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        <li><a href=""><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                        <li><a href=""><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                    </ul>
+                </li>
+                <li><a href=""><span class="glyphicon glyphicon-off"></span>退出</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+    <div class="container">
+        <div class="row one">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">网站数据统计</div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <thead>
+                                <th>统计项目</th>
+                                <th>今日</th>
+                                <th>昨日</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>注册会员</td>
+                                    <td>200</td>
+                                    <td>400</td>
+                                </tr>
+                                <tr>
+                                    <td>登录会员</td>
+                                    <td>4100</td>
+                                    <td>5112</td>
+                                </tr>
+                                <tr>
+                                    <td>今日发帖</td>
+                                    <td>1540</td>
+                                    <td>4511</td>
+                                </tr>
+                                <tr>
+                                    <td>转载次数</td>
+                                    <td>150</td>
+                                    <td>110</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">网站热帖</div>
+                        <ul class="list-group date">
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                            <li class="list-group-item clearfix">
+                                <a href=""><span class="glyphicon glyphicon-list-alt"></span>泛Mooc职业教育，效果和就业为王</a>
+                                <p>2015/08/08</p>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+
+        <div class="row two">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">今日访客统计</div>
+                    <div class="panel-body">
+                        <img src="images/images/data.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="panel panel-default">
+                    <div class="panel-heading">服务器状态</div>
+                    <div class="panel-body">
+                        <p>内存使用率：40%</p>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-success" style="width:40%"></div>
+                        </div>
+                        <p>数据库使用率：20%</p>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-info" style="width:20%"></div>
+                        </div>
+                        <p>磁盘使用率：60%</p>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-warning" style="width:60%"></div>
+                        </div>
+                        <p>CPU使用率：80%</p>
+                        <div class="progress progress-striped active">
+                            <div class="progress-bar progress-bar-danger" style="width:80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row three">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">团队留言板</div>
+                    <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-7">
+                                    <div class="panel panel-default talk">
+                                        <div class="left panel-body clearfix">
+                                            <div class="left-pic">
+                                            <img src="images/images/a.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="left-text">
+                                                <h4>卓大哥</h4>
+                                                <p>技术大哥，今晚把网站程序升级一下哈，现在的系统有漏洞，安全起见！</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default talk">
+                                        <div class="right panel-body clearfix">
+                                            <div class="right-pic">
+                                                <img src="images/images/b.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="right-text clearfix">
+                                                <h4>技术大哥</h4>
+                                                <p>收到！今晚凌晨2点准时升级！</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default talk">
+                                        <div class="right panel-body clearfix">
+                                            <div class="right-pic">
+                                                <img src="images/images/b.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="right-text clearfix">
+                                                <h4>技术大哥</h4>
+
+                                                <p>你去站点发布一下通知啊!</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default talk">
+                                        <div class="left panel-body clearfix">
+                                            <div class="left-pic">
+                                                <img src="images/images/a.png" alt="" class="img-responsive">
+                                            </div>
+                                            <div class="left-text">
+                                                <h4>卓大哥</h4>
+                                                <p>好勒。</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <label for="" class="control-label">输入留言内容</label>
+                                            <input type="text" class="form-control  write" placeholder="请输入留言内容">
+                                            <button class="btn btn-default">留言</button>
+                                        </div>
+                                    </form>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">团队联系手册</div>
+                                        <div class="panel-body">
+                                            <ul class="list-group date">
+                                                <li class="list-group-item clearfix">
+                                                    <a href="">站长(李小龙)：<span class="glyphicon glyphicon-phone"></span>13134848615</a>
+                                                </li>
+                                                <li class="list-group-item clearfix">
+                                                    <a href="">技术(大牛哥)：<span class="glyphicon glyphicon-phone"></span>13456127694</a>
+                                                </li>
+                                                <li class="list-group-item clearfix">
+                                                    <a href="">推管(张二哥)：<span class="glyphicon glyphicon-phone"></span>13457815482</a>
+                                                </li>
+                                                <li class="list-group-item clearfix">
+                                                    <a href="">客服(王女士)：<span class="glyphicon glyphicon-phone"></span>13134567782<span class="glyphicon glyphicon-phone-alt"></span>028-888888</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+    </div>
+    <footer>
+        <span>Copyright&copy;2013~2015&nbsp;&nbsp;ICP粤xxxxxx号</span>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+.qrxy{
+    color:#40d2b1;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.jumbotron{
+    color:#fff;
+    text-align: center;
+    background: url(images/home-bg.jpg) no-repeat;
+}
+.lvjing{
+    padding-bottom:75px;
+    background: rgba(0,0,0,.7);
+}
+.lvjing h2{
+    padding: 20px 0 20px 0;
+    font-weight: 700;
+}
+.lvjing p{
+    font-size: 12px;
+}
+.lvjing a img{
+    width:500px;
+    padding-top:30px;
+}
+.cont0{
+    padding:0 50px 50px 50px;
+}
+.cont0 div figure{
+    text-align: center;
+}
+figure figcaption{
+    padding:10px 0 10px 0;
+    font-size: 20px;
+}
+
+figure a{
+    color:#000;
+    font-size: 12px;
+}
+.cont1{
+    padding:60px;
+    background: #d3d3d3;
+}
+.cont1 ul{
+    padding-top:20px;
+    float: left;
+}
+.cont1 ul li,
+.cont2 ul li
+{
+    padding-bottom: 10px;
+}
+.cont1 ul li h3,
+.cont2 ul li h3,
+.cont4 ul li h3{
+    font-weight: 700;
+}
+.cont1 ul li{
+    font-size: 13px;
+}
+.cont2{
+    padding:60px;
+}
+.cont2 ul{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.cont3{
+    background: #d3d3d3;
+    padding-bottom: 50px;
+}
+.cont3 h3{
+    text-align: center;
+    line-height: 150px;
+}
+.cont3 div div .node div img{
+    width:260px;
+}
+.cont3 div div .node .join{
+    padding:10px 40px 10px 70px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.cont3 div div .node div button{
+    padding:10px 30px 10px 30px;
+    color:#40d2b1;
+    border:1px solid #40d2b1;
+    border-radius: 0;
+    background: #fff;
+}
+.cont4{
+    padding:60px 0 60px 60px;
+}
+.cont4 a img{
+    width:500px;
+}
+.cont4 ul{
+    float:left;
+    margin-right: 30px;
+}
+.cont4 ul li{
+    padding:10px 0 10px 0;
+}
+.cont4 ul li button{
+    width:130px;
+    margin-right: 10px;
+    border-radius: 0;
+}
+.cont5{
+    background:url(images/contact-bg.png) ;
+}
+.cont5 .lvjing{
+    height:400px;
+    padding:60px;
+}
+.cont5 ul{
+    color:#fff;
+}
+.cont5 ul li{
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.cont5 ul li a{
+    color:#fff;
+}
+.data div .one{
+    width:237px;
+    height:40px;
+    margin: 0 10px 20px 15px;
+}
+.data div .three{
+    width:500px;
+    height:40px;
+}
+.data div .four{
+    width:500px;
+    height:80px;
+    margin:20px 0 20px 0;
+}
+.data div button{
+    width:350px;
+    border-radius: 0;
+}
+footer{
+    width:100%;
+    text-align: center;
+    background: #272822;
+}
+footer span{
+    line-height: 60px;
+    color:#fff;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>panelthree</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="panelthree.css">
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">后台管理</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar" >
+            <ul class="nav navbar-nav">
+                <li><a href="panelone.html"><span class="glyphicon glyphicon-home"></span>后台首页</a></li>
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span>用户管理</a></li>
+                <li><a href="panelfour.html"><span class="glyphicon glyphicon-list-alt"></span>内容管理</a></li>
+                <li><a href="panelsix.html"><span class="glyphicon glyphicon-tags"></span>标签管理</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-sm-3"></div>
+    <div class="col-sm-2 ">
+        <ul class="nav navbar-nav">
+            <li class="dropdown"><a class="dropdown-toggle" type="button" data-toggle="dropdown">admin<span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href=""><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                    <li><a href=""><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                </ul>
+            </li>
+            <li><a href=""><span class="glyphicon glyphicon-off"></span>退出</a></li>
+        </ul>
+    </div>
+    <div class="col-sm-1"></div>
+</div>
+
+<div class="container">
+    <div class="row one">
+        <div class="col-sm-2">
+            <div class="list-group admin">
+                <a href="##" class="list-group-item ">用户管理</a>
+                <a href="##" class="list-group-item active">用户搜索</a>
+                <a href="##" class="list-group-item ">添加用户</a>
+            </div>
+        </div>
+        <div class="col-sm-9">
+            <div class="panel">
+                <div class="panel-heading user-head">用户管理</div>
+                <div class="panel-body">
+                    <ul class="nav nav-tabs">
+                        <li><a href="#" class="user-title ">用户列表</a></li>
+                        <li  class="active"><a href="#">用户搜索</a></li>
+                        <li><a href="#mymodal"  data-toggle="modal"  class="user-title">添加用户</a></li>
+                        <div class="modal" id="mymodal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                                        <h4 class="modal-title">添加用户</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form role="form">
+                                            <div class="form-group">
+                                                <label class="control-label">用户名</label>
+                                                <input type="text" class="form-control" placeholder="请输入用户名" >
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">用户密码</label>
+                                                <input type="password" id="min"  class="form-control" placeholder="请输入用户密码" >
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">确认用户密码</label>
+                                                <input type="password" id="min"class="form-control" placeholder="请确认输入用户密码" >
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">请输入用户邮箱</label>
+                                                <input type="text" class="form-control" placeholder="请输入用户邮箱" >
+                                            </div>
+                                            <div class="form-group">
+                                                <label>选择用户组</label>
+                                                <select name="" id=""  class="form-control">
+                                                    <option value="0">限制会员</option>
+                                                    <option value="1">新手上路</option>
+                                                    <option value="2">注册会员</option>
+                                                    <option value="3">中级会员</option>
+                                                    <option value="4">高级会员</option>
+                                                </select>
+                                            </div>
+                                            <button class="btn btn-default " type="submit">提交</button>
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                        <button type="button" class="btn btn-primary">保存</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    <div class="cont">
+                        <div class="alert alert-info"><span>技巧提示：</span>支持模糊搜索，匹配搜索*代替！</div>
+                        <form role="form">
+                            <div class="form-group">
+                                <label class="control-label">用户名</label>
+                                <input type="text" class="form-control" placeholder="请输入用户名" >
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">UID</label>
+                                <input type="text" class="form-control" placeholder="请输入用户UID" >
+                            </div>
+                            <div class="form-group">
+                                <label>选择用户组</label>
+                                <select name="" id=""  class="form-control">
+                                    <option value="0">限制会员</option>
+                                    <option value="1">新手上路</option>
+                                    <option value="2">注册会员</option>
+                                    <option value="3">中级会员</option>
+                                    <option value="4">高级会员</option>
+                                </select>
+                            </div>
+                            <button class="btn btn-default " type="submit">提交</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+
+</div>
+<footer>
+    <span>Copyright&copy;2013~2015&nbsp;&nbsp;ICP粤xxxxxx号</span>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

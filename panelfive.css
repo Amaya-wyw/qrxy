@@ -1,0 +1,19 @@
+.one{
+    padding-top: 90px;
+}
+.one .admin a:hover{
+    background: #337AB7;
+    color:#fff;
+}
+.user-head{
+    border-bottom: 1px solid #E1E1E1;
+}
+.cont{
+    padding-top:10px;
+}
+footer{
+    text-align: center;
+}
+footer span{
+    line-height: 60px;
+}

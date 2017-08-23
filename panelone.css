@@ -1,0 +1,42 @@
+.one{
+    padding-top: 90px;
+}
+.one .date li a{
+    color:#6C9EC9;
+}
+.one .date li p{
+    float:right;
+    color:#6C9EC9;
+}
+.three .left .left-pic,
+.three .left .left-text{
+    float:left;
+}
+.three .left .left-pic{
+    width:60px;
+    margin-right: 10px;
+}
+.three .right .right-pic,
+.three .right .right-text{
+    float:right;
+}
+.three .right .right-pic{
+    width:60px;
+    margin-left: 10px;
+}
+.three .right .right-text h4{
+    text-align: right;
+}
+.three .talk{
+    background: #F6F6F6;
+}
+.write{
+    height:100px;
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+footer span{
+    line-height: 60px;
+}
