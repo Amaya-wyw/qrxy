@@ -34,6 +34,9 @@
     height:100px;
     margin-bottom: 10px;
 }
+table tbody td{
+    font-weight: 700;
+}
 footer{
     text-align: center;
 }

@@ -7,7 +7,7 @@
 .jumbotron{
     color:#fff;
     text-align: center;
-    background: url(images/home-bg.jpg) no-repeat;
+    background: url(../images/home-bg.jpg) no-repeat;
 }
 .lvjing{
     padding-bottom:75px;
@@ -109,7 +109,7 @@ figure a{
     border-radius: 0;
 }
 .cont5{
-    background:url(images/contact-bg.png) ;
+    background:url(../images/contact-bg.png) ;
 }
 .cont5 .lvjing{
     height:400px;

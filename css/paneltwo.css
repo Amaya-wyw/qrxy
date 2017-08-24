@@ -11,6 +11,9 @@
 .user-title{
     color: #337AB7;
 }
+table tbody td{
+    font-weight: 700;
+}
 footer{
     text-align: center;
 }
